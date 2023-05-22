@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  background-color: #edf3ff;
+}
+
+.row {
+  margin-top: 7%;
+}
+
+.navbar-brand span {
+  color: #0ef;
+  font-size: 130%;
+  font-weight: bold;
+}
+  
+a.navbar-brand {
+  font-size: medium;
+}
+  
+.offcanvas-body button {
+  position: absolute;
+  bottom: 15px;
+  width: 98%;
+  right: 10px;
+  font-weight: bold;
+  left: 5px;
+  text-align: center;
+  background-color: red;
+  border-color: black;
+}
+  
+.offcanvas-body button a{
+  color: white;
+  text-decoration: none;
+}
+  
+.card .d-flex{
+  width: 30%;
+  justify-content: flex-end;
+}  
+  
+.card {
+  display: flex;
+  justify-content: flex-end;
+}
+  
+.card table {
+  margin-left: 1px;
+  margin-right: 1px;
+}
